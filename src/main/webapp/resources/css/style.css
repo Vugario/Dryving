@@ -1,0 +1,32 @@
+/* General Styles */
+html, body {
+	height: 100%;
+}
+
+
+.border {
+}
+
+	.border form {
+		margin-top: 20px;
+	}
+
+.input-not-medium {
+	width: 130px;
+}
+
+@media (max-width: 979px) and (min-width: 768px) {
+	.input-not-medium {
+		width: 125px;
+	}
+}
+
+/* Sidepane menu */
+
+.sidepane {
+	background: red;
+	left: -200px;
+	height: 100%;
+	position: fixed;
+	width: 200px;
+}
